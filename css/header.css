@@ -1,27 +1,27 @@
 /** Cabeçalho **/
 
-#areaCabecalho {
+#headerArea {
     background-color: #f7b600;
     text-align: center;
     padding: 15px;
 }
 
-#areaLogo {
+#logoArea {
     font-size: 2.5em;
     color: #4e4e4e;
     font-weight: bold;
 }
 
-.branco {
+.white {
     color: #fff;
 }
 
-#areaMenu, #areaLogo {
+#menuArea, #logoArea {
     padding: 10px;
 }
 
 a {
-  
+    font-weight: bold;
     text-decoration: none;
 }
 

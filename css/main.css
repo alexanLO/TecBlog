@@ -1,0 +1,26 @@
+#mainArea{
+    width: 920px;
+    margin: 0 auto;
+   
+}
+
+#postArea {
+    width: 660px;
+    float: left;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+#sideArea{
+    background-color: #fff;
+    width: 240px;
+    float: right;
+}
+
+#footer {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+    background-color: #ccc;
+}
