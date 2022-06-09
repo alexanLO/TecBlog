@@ -1,5 +1,4 @@
-/** Cabeçalho **/
-
+/** General **/
 #headerArea {
     background-color: #f7b600;
     text-align: center;
@@ -12,27 +11,27 @@
     font-weight: bold;
 }
 
-.white {
-    color: #fff;
-}
-
 #menuArea, #logoArea {
     padding: 10px;
 }
 
-a {
+#headerArea a {
     font-weight: bold;
-    text-decoration: none;
 }
 
-a:link, a:visited {
+#headerArea a:link, #headerArea a:visited {
     color: #fff;
     padding: 8px 12px;
-   
 }
 
-a:hover {
+#headerArea a:hover {
     color: #f7b600;
     background-color: #fff;
+    text-decoration: none;
 }
+/** Specific **/
+.white {
+    color: #fff;
+}
+
 

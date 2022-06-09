@@ -1,21 +1,49 @@
+/** Main Post Area **/
 #mainArea{
     width: 920px;
     margin: 0 auto;
-   
+    padding: 10px;
 }
 
 #postArea {
+    padding-left: 10px;
     width: 660px;
     float: left;
     background-color: #fff;
-    padding-top: 20px;
 }
+
+.post {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.post img {
+    padding-top: 20px
+}
+
+.postDate {
+    font-size: 0.8em;
+}
+
+/** Side Area **/
 
 #sideArea{
     background-color: #fff;
     width: 240px;
     float: right;
 }
+
+.sidePost {
+    padding: 5px;
+}
+
+.sidePost div {
+ font-size: 0.8em;
+ padding: 5px;
+ border-bottom: 1px dotted #ccc;
+}
+
+/** Footer **/
 
 #footer {
     padding: 20px;
